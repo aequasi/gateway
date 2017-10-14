@@ -254,6 +254,7 @@ defmodule Guilds.Guild do
   defp broadcast_event(state, :GUILD_MEMBERS_UPDATE, members_ids) do
     state.members
     |> Map.take(members_ids)
+    |> Map.values()
     |> do_broadcast_event(:GUILD_MEMBERS_UPDATE, state)
   end
 
