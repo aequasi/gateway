@@ -26,7 +26,7 @@ Every guild related events listed bellow do not have a `s` parameter. The way th
 
 Events are broadcasted to channels in the form `gateway.event.{event_type}` where `event_type` is actually what we call t here.
 
-Bellow is a list of all the events types.
+## Events List
 
 ### GUILD_JOIN
 <table>
