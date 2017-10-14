@@ -354,7 +354,7 @@ defmodule Guilds.Guild do
         ts: :os.system_time(:millisecond)
       }
 
-    channel = "guild.#{state.id}.#{t}"
+    channel = "gateway.event.#{t}"
     data    = Poison.encode!(payload)
 
     RedixStage.cmd(["PUBLISH", channel, data])
