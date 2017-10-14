@@ -24,7 +24,7 @@ Each events are in the form
 
 Every guild related events listed bellow do not have a `s` parameter. The way the gateway is made, guilds don't know which shard they belong to.
 
-Events are broadcasted to channels in the form `gateway.event.{event_type}` where `event_type` is actually what we call t here.
+Events are broadcasted to channels in the form `gateway.event.{event_type}`, where `event_type` is actually what we call to here.
 
 ## Events List
 
